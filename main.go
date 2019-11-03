@@ -61,8 +61,8 @@ func client() *rpcclient.Client {
 		Host:         c.Host + ":" + c.RpcPort,
 		User:         c.RpcUsername,
 		Pass:         c.RpcPassword,
-		HTTPPostMode: true, // Viacoin core only supports HTTP POST mode
-		DisableTLS:   true, // Viacoin core does not provide TLS by default
+		HTTPPostMode: true, // Beyondcoin core only supports HTTP POST mode
+		DisableTLS:   true, // Beyondcoin core does not provide TLS by default
 	}
 
 	// Notice the notification parameter is nil since notifications are
